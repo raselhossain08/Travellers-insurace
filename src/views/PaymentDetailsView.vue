@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="qr-code flex items-center justify-center py-7">
-                <img src="@/assets/img/qr.png" alt="qr">
+                <img src="../assets/img/qr.png" alt="qr">
             </div>
             <div class="bank-apps">
                 <h1>Bank apps</h1>
@@ -69,7 +69,7 @@
         <!-- Continue Button -->
         <div class="footer-content  w-full pb-10 pt-8">
             <div class="relative w-full">
-                <img src="@/assets/img/effect3.svg" alt="effect2" class="absolute left-0 bottom-0">
+                <img src="../assets/img/effect3.svg" alt="effect2" class="absolute left-0 bottom-0">
                 <div class="continue-button px-8 max-w-md w-full mx-auto ">
                     <button type="button" class="primary-btn" @click="continueButton()">
                         Continue
@@ -82,21 +82,21 @@
 </template>
 
 <script setup>
-import MBankIcon from '@/assets/img/MBank.png';
-import XacBankIcon from '@/assets/img/Xac.png';
-import KhanBankIcon from '@/assets/img/KhanBank.png';
-import StateBankIcon from '@/assets/img/StateBank.png';
-import TDBOnlineIcon from '@/assets/img/Tdbonline.png';
-import BogdBankIcon from '@/assets/img/BogdBank.png';
-import SocialPayIcon from '@/assets/img/SocialPay.png';
-import CapitronBankIcon from '@/assets/img/CapitronBank.png';
-import NIBankIcon from '@/assets/img/NIBank.png';
-import QPAYWalletIcon from '@/assets/img/QPAYwallet.png';
-import ChinggisKhaanIcon from '@/assets/img/ChinggisKhaan.png';
-import MonpayIcon from '@/assets/img/monpay.png';
-import TransbankIcon from '@/assets/img/Transbank.png';
-import MostMoneyIcon from '@/assets/img/MostMoney.png';
-import ArdAppIcon from '@/assets/img/Ardapp.png';
+import MBankIcon from '../assets/img/MBank.png';
+import XacBankIcon from '../assets/img/Xac.png';
+import KhanBankIcon from '../assets/img/KhanBank.png';
+import StateBankIcon from '../assets/img/StateBank.png';
+import TDBOnlineIcon from '../assets/img/Tdbonline.png';
+import BogdBankIcon from '../assets/img/BogdBank.png';
+import SocialPayIcon from '../assets/img/SocialPay.png';
+import CapitronBankIcon from '../assets/img/CapitronBank.png';
+import NIBankIcon from '../assets/img/NIBank.png';
+import QPAYWalletIcon from '../assets/img/QPAYwallet.png';
+import ChinggisKhaanIcon from '../assets/img/ChinggisKhaan.png';
+import MonpayIcon from '../assets/img/monpay.png';
+import TransbankIcon from '../assets/img/Transbank.png';
+import MostMoneyIcon from '../assets/img/MostMoney.png';
+import ArdAppIcon from '../assets/img/Ardapp.png';
 
 import { destinationStore } from '@/stores/counter';
 import { ref } from 'vue';
