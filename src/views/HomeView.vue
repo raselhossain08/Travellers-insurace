@@ -1,10 +1,10 @@
 <script setup>
 import Accordion from '@/components/Accordion.vue'
 import Footer from '@/components/Footer.vue'
-import { useRouter } from 'vue-router';
+import { useRouter } from 'vue-router'
 const router = useRouter()
 
-function getInsured(){
+function getInsured() {
   router.push('/destination')
 }
 </script>
@@ -44,7 +44,6 @@ function getInsured(){
         <img src="@/assets/img/effect2.svg" alt="effect2" />
       </div>
     </div>
-
   </main>
 </template>
 

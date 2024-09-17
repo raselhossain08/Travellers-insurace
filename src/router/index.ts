@@ -10,6 +10,7 @@ import PersonalInformationView from '@/views/PersonalInformationView.vue'
 import TripDetailsView from '@/views/TripDetailsView.vue'
 // @ts-ignore
 import PaymentDetailsView from '@/views/PaymentDetailsView.vue'
+// @ts-ignore
 import FeedbackView from '@/views/FeedbackView.vue'
 
 const router = createRouter({
