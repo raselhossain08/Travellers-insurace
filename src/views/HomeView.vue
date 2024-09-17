@@ -26,8 +26,8 @@ function getInsured() {
             incididunt ut labore et dolore magna.
           </p>
 
-          <div class="flex justify-center items-center py-6">
-            <button type="button" class="primary-btn" @click="getInsured()">
+          <div class="flex justify-center items-center py-6 relative z-20">
+            <button type="button" class="primary-btn " @click="getInsured()">
               Get insured
               <font-awesome-icon :icon="['fas', 'arrow-right']" class="mx-2" />
             </button>

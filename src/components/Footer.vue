@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="flex flex-col justify-between items-start p-4 border-t border-gray-200 bg-white py-10"
+    class="flex flex-col justify-between items-start p-4 border-t border-gray-200 bg-white mt-5"
   >
     <div class="flex items-center justify-between w-full py-2">
       <div class="flex">

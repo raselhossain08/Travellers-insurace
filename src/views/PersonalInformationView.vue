@@ -74,7 +74,7 @@
       />
     </div>
     <!-- Continue Button -->
-    <div class="footer-content py-10 w-full">
+    <div class="footer-content py-10 w-full mt-20">
       <div class="relative w-full">
         <img src="@/assets/img/effect3.svg" alt="effect2" class="absolute left-0 bottom-0" />
         <div class="continue-button px-8 max-w-md w-full mx-auto">
